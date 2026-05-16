@@ -9,7 +9,8 @@
 # WSL monta la unidad C: en /mnt/c/, permitiendo que Ubuntu lea y modifique archivos en Windows como si fuera parte del mismo sistema.
 # 
 # 3
-#
+# Se puede relacionar con la arquitectura de sistemas operativos, porque WSL funciona como una capa de 
+# compatibilidad entre Windows y Linux, lo que deja que interactuen y tengan sus archvos compartidos.
 
 
 import os
