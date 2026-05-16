@@ -1,0 +1,9 @@
+=== REPORTE COMBINADO Windows + Ubuntu ===
+Generado: 2026-05-09 19:48:15.391786
+
+--- Datos leídos desde Windows ---
+echo "=== Reporte generado desde Ubuntu ===" > reporte.txt echo "Fecha: $(date)" >> reporte.txt echo "Usuario Ubuntu: $(whoami)" >> reporte.txt echo "Directorio: $(pwd)" >> reporte.txt echo "Kernel: $(uname -r)" >> reporte.txt echo "RAM libre: $(free -h | awk '/Mem:/{print $4}')" >> reporte.txt
+
+Modificado desde Windows
+--- Datos de Ubuntu ---
+Memoria: Mem:           3.8Gi       491Mi       3.2Gi       3.5Mi       219Mi       3.3Gi
